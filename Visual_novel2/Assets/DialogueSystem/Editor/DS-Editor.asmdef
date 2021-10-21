@@ -1,0 +1,18 @@
+{
+    "name": "DS-Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:abc8b0bc746447e4ca01d12e931482e8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
