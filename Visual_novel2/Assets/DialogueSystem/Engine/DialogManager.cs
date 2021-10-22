@@ -47,6 +47,7 @@ namespace DS.Engine {
             UpdateChoices(dialogue);
             UpdateSprites(dialogue);
             currentDialogue = dialogue;
+           
         }
 
         private void UpdateTexts(DSNodeData dialogue) {

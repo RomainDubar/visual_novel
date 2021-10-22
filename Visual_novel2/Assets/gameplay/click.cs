@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class click : MonoBehaviour
 {
+    public GameObject counter;
     public random_spawner RandomSpawner;
-    public counter Counter;
+  
     void OnMouseDown()
     {
-        RandomSpawner.SpawnCandy();
+        //RandomSpawner.SpawnCandy();
+        
+        //Counter.Collect();
+        //counter.GetComponent<random_spawner>().CandyInScene -= 1;
+        //Debug.Log(RandomSpawner.CandyInScene);
+        RandomSpawner.DestroyCandy();
         Destroy(gameObject);
-        Counter.Collect();
-
-        //RandomSpawner.DestroyCandy();
 
     }
 }

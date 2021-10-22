@@ -5,23 +5,41 @@ using UnityEngine;
 public class random_spawner : MonoBehaviour
 {
     public GameObject candy;
-    public counter Counter;
-
+    public int numberCandy;
+    private int TheSpawnCandy;
+    internal static int CandyInScene =0;
+    
     private void Start()
     {
-        SpawnCandy();
+        CandyInScene = 0;
+        TheSpawnCandy = numberCandy;
+
+        //SpawnCandy();
     }
     void Update()
     {
-      
+        
+        if (CandyInScene ==0)
+        {
+            TheSpawnCandy = numberCandy;
+            
+        }
+        while (TheSpawnCandy != 0)
+        {
+            SpawnCandy();
+            TheSpawnCandy -= 1;
+
+        }
+
     }
 
     public void SpawnCandy()
     {
+        CandyInScene += 1;
         bool candyspawn = false;
         while (!candyspawn)
         {
-            Counter.score += 5;
+            
             Vector3 candyPosition = new Vector3(Random.Range(-7f, 7f), Random.Range(-4f, 4f), 0f);
             if ((candyPosition - transform.position).magnitude < 3)
             {
@@ -37,8 +55,11 @@ public class random_spawner : MonoBehaviour
 
     public void DestroyCandy()
     {
-        Destroy(gameObject);
+        counter.score += 5;
+        CandyInScene -= 1;
         
+        //Debug.Log(Counter.GetComponent<counter>().score);
+
     }
 
     //void OnMouseDown()

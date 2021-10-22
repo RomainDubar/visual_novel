@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class counter : MonoBehaviour
 {
-    public int score;
+    public static int score;
     public Text AfficheScore;
     // Start is called before the first frame update
     void Start()
