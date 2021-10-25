@@ -8,7 +8,9 @@ public class random_spawner : MonoBehaviour
     public int numberCandy;
     private int TheSpawnCandy;
     internal static int CandyInScene =0;
-    
+    internal static bool CanStealCandy;
+
+
     private void Start()
     {
         CandyInScene = 0;
@@ -35,6 +37,8 @@ public class random_spawner : MonoBehaviour
 
     public void SpawnCandy()
     {
+        
+
         CandyInScene += 1;
         bool candyspawn = false;
         while (!candyspawn)
@@ -55,8 +59,20 @@ public class random_spawner : MonoBehaviour
 
     public void DestroyCandy()
     {
-        counter.score += 5;
-        CandyInScene -= 1;
+        if (CanStealCandy == true )
+        {
+            counter.score += 5;
+            CandyInScene -= 1;
+            
+        }
+        else if (CanStealCandy == false )
+        {
+            counter.score = counter.score / 2;
+            CandyInScene -= 1;
+
+        }
+        
+        
         
         //Debug.Log(Counter.GetComponent<counter>().score);
 

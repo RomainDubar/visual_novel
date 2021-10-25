@@ -54,7 +54,9 @@ namespace DS.Editor {
             extensionContainer.Add(ElementUtility.CreateTextArea(Data.CharacterName, "", ChangeCharacterName, "node__textfield", "node__character-textfield"));
             extensionContainer.Add(ElementUtility.CreateTextArea(Data.Text, "", ChangeText, "node__textfield", "node__dialogue-textfield"));
             extensionContainer.Add(ElementUtility.CreateObjectField<Sprite>("Character Sprite", Data.CharacterSprite, false, ChangeCharacterSprite));
+            extensionContainer.Add(ElementUtility.CreateObjectField<Sprite>("Character Sprite 2", Data.Character2Sprite, false, ChangeCharacterSprite2));
             extensionContainer.Add(ElementUtility.CreateObjectField<Sprite>("Background Sprite", Data.BackgroundSprite, false, ChangeBackgroundSprite));
+            extensionContainer.Add(ElementUtility.CreateObjectField<Sprite>("Dialogue Sprite", Data.DialogueSprite, false, ChangeDialogueSprite));
         }
 
         private void ChangeCharacterName(ChangeEvent<string> evt) {
@@ -72,9 +74,18 @@ namespace DS.Editor {
             Data.CharacterSprite = evt.newValue as Sprite;
             graphView.SetDirty();
         }
+        
+        private void ChangeCharacterSprite2(ChangeEvent<Object> evt) {
+            Data.Character2Sprite = evt.newValue as Sprite;
+            graphView.SetDirty();
+        }
 
         private void ChangeBackgroundSprite(ChangeEvent<Object> evt) {
             Data.BackgroundSprite = evt.newValue as Sprite;
+            graphView.SetDirty();
+        } 
+        private void ChangeDialogueSprite(ChangeEvent<Object> evt) {
+            Data.DialogueSprite = evt.newValue as Sprite;
             graphView.SetDirty();
         }
         #endregion

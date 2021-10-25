@@ -18,7 +18,9 @@ namespace DS.Engine {
 #endif
         [Header("Images")]
         [SerializeField] private Image imageCharacter;
+        [SerializeField] private Image imageCharacter2;
         [SerializeField] private Image imageBackground;
+        [SerializeField] private Image imageDialogue;
         [Header("Buttons")]
         [SerializeField] private GameObject buttonParent;
         [SerializeField] private GameObject buttonPrefab;
@@ -97,7 +99,9 @@ namespace DS.Engine {
 
         private void UpdateSprites(DSNodeData dialogue) {
             if(dialogue.CharacterSprite != null) imageCharacter.sprite = dialogue.CharacterSprite;
+            if(dialogue.Character2Sprite != null) imageCharacter2.sprite = dialogue.Character2Sprite;
             if(dialogue.BackgroundSprite != null) imageBackground.sprite = dialogue.BackgroundSprite;
+            if(dialogue.DialogueSprite != null) imageDialogue.sprite = dialogue.DialogueSprite;
         }
     }
 }

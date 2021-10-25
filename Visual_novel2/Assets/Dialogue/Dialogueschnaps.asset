@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c45406c869b3d294faf4ca9faac25539, type: 3}
+  m_Name: Dialogueschnaps
+  m_EditorClassIdentifier: 
+  nodes:
+  - id: 9515acc9-1b56-41e1-9da5-b22f5e54c24b
+    characterName: Character
+    text: Text...
+    choices:
+    - name: Next
+      nextDialogueID: 71a49c77-f49a-4ac8-ae0b-d403ec570712
+    characterSprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 6fea10c04d6eefe458d01684e54d59c1, type: 3}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 57, y: 150}
+  - id: 71a49c77-f49a-4ac8-ae0b-d403ec570712
+    characterName: Schnaps
+    text: ZzzzZZZZzzzZZ
+    choices:
+    - name: Next
+      nextDialogueID: fc6c7c83-49b4-4da2-81af-b2706877ed7c
+    characterSprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    character2Sprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 36a2dcf413a34944891e6d16923c7ae9, type: 3}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 522, y: 150}
+  - id: fc6c7c83-49b4-4da2-81af-b2706877ed7c
+    characterName: Schnaps
+    text: bwwWWARGh
+    choices:
+    - name: Next
+      nextDialogueID: 8933f3af-36ba-4bbe-b3da-a47966042007
+    characterSprite: {fileID: 21300000, guid: 40f33450a918fd14d8087243cad0dbfd, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0b82d717abf0b0945bf4855a2f4e9df9, type: 3}
+    position: {x: 1020.75, y: 150.00003}
+  - id: 8933f3af-36ba-4bbe-b3da-a47966042007
+    characterName: Schnaps
+    text: "Argh ! Fichus cauchemars ! En plein milieu du jour en plus ! \r\nUne p\xE9nurie
+      de sucre\u2026 Quelle horreur !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: d38aa3ca-d036-4b53-9300-60c5fe43b5eb
+    characterSprite: {fileID: 21300000, guid: 59e73db88c4681e46b4ff59f1ebe095f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 1488.4001, y: 150.00003}
+  - id: d38aa3ca-d036-4b53-9300-60c5fe43b5eb
+    characterName: Schnaps
+    text: "Tiens, j\u2019ai la dalle en parlant de \xE7a ! A cette heure-ci tout
+      le monde doit encore pioncer\u2026"
+    choices:
+    - name: Next
+      nextDialogueID: ec4e666f-9ac2-473b-addd-ff50646321dc
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 1982.5559, y: 149.99998}
+  - id: ec4e666f-9ac2-473b-addd-ff50646321dc
+    characterName: Schnaps
+    text: "Et si je rendais une petite visite diurne au nouveau magasin de bonbons
+      de la ville\u2026 ?\r\nHehe, showtime !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: cd9049f2-937e-4146-bde1-3e9108e1f12a
+    characterSprite: {fileID: 21300000, guid: 6f2491f76cf1836428565242c76bbe9b, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 2558.817, y: 149.99998}
+  - id: cd9049f2-937e-4146-bde1-3e9108e1f12a
+    characterName: Character
+    text: Text...
+    choices:
+    - name: Next
+      nextDialogueID: b90d94e7-14ee-4106-867a-88923ff8df4f
+    characterSprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 21300000, guid: 116a1497189a83b4ea513df0e12ad9b4, type: 3}
+    dialogueSprite: {fileID: 0}
+    position: {x: 3214.0007, y: 150.00002}
+  - id: b90d94e7-14ee-4106-867a-88923ff8df4f
+    characterName: Schnaps
+    text: "Mh\u2026 ? La porte est ouverte\u2026 ? Bah ! Encore plus simple que de
+      chiper une sucette \xE0 un zombie !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: e455349d-6d87-4d25-8168-0e825302a40a
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 21300000, guid: 9ffe1d32f9be7d1409d6871c20ff97eb, type: 3}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 3529.8967, y: 150.00002}
+  - id: e455349d-6d87-4d25-8168-0e825302a40a
+    characterName: Schnaps
+    text: "Warf ! C\u2019est immense ici ! Mate moi tous ces bonbecs !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: f0d55133-a7f8-438a-b705-a5275530e864
+    characterSprite: {fileID: 21300000, guid: 0ca9f61f013b95f4694ed7f08252d284, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0b82d717abf0b0945bf4855a2f4e9df9, type: 3}
+    position: {x: 4165.2017, y: 150}
+  - id: 1027ba6a-10f2-4f70-ac83-f9088e21e992
+    characterName: Character
+    text: Text...
+    choices:
+    - name: Next
+      nextDialogueID: 
+    characterSprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 21300000, guid: 4fb56a3844ec4ea4aa4bcde97dccc679, type: 3}
+    dialogueSprite: {fileID: 0}
+    position: {x: 4103.1655, y: 1096.1537}
+  - id: 14be8cbb-5fa5-45ea-a8ee-fe585224ed74
+    characterName: Character
+    text: Text...
+    choices:
+    - name: Next
+      nextDialogueID: 
+    characterSprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 21300000, guid: dbd2101acba2aa4448abe897dabf6a54, type: 3}
+    dialogueSprite: {fileID: 0}
+    position: {x: 4103.1655, y: 1289.1538}
+  - id: 65ac4d31-8f8f-4ffa-961d-2d9db61f0b9d
+    characterName: Character
+    text: Text...
+    choices:
+    - name: Next
+      nextDialogueID: 
+    characterSprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 21300000, guid: a8f0b4953e5ce604d9dfafbcef1472b7, type: 3}
+    dialogueSprite: {fileID: 0}
+    position: {x: 4103.1655, y: 1499.1537}
+  - id: f0d55133-a7f8-438a-b705-a5275530e864
+    characterName: Jack'O Candy
+    text: Bonjour ! Comment puis-je vous aid-
+    choices:
+    - name: Next
+      nextDialogueID: 1d0659f0-7f41-4c6e-8b6c-b7466ab20131
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 1d6ad41be9d23dd419094fa84a3a10ec, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 4657, y: 150}
+  - id: 1d0659f0-7f41-4c6e-8b6c-b7466ab20131
+    characterName: Jack'O Candy
+    text: "Hey ! Ca fait beaucoup de bonbons ! Vous comptez vraiment payer tout \xE7a
+      ? Et\u2026 Je suis presque s\xFBr que ces sucreries ne sont pas \xE0 vendre\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: aedbade9-f6a3-45b6-8539-a262343dcdab
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 5149.998, y: 150}
+  - id: aedbade9-f6a3-45b6-8539-a262343dcdab
+    characterName: Schnaps
+    text: "Warf ! M\u2019avez fait peur !"
+    choices:
+    - name: Next
+      nextDialogueID: 9aa769c2-21e1-4790-95f2-6659a1d829bc
+    characterSprite: {fileID: 21300000, guid: 0ca9f61f013b95f4694ed7f08252d284, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0b82d717abf0b0945bf4855a2f4e9df9, type: 3}
+    position: {x: 5795, y: 150}
+  - id: 9aa769c2-21e1-4790-95f2-6659a1d829bc
+    characterName: Schnaps
+    text: "Enfin, j\u2019veux dire\u2026 Techniquement, j\u2019ai pas le droit de
+      les acheter, mais si je les prend juste, \xE7a passe nan ?"
+    choices:
+    - name: Next
+      nextDialogueID: e93c0f95-ce10-408c-8db7-8ac3c192120e
+    characterSprite: {fileID: 21300000, guid: 59e73db88c4681e46b4ff59f1ebe095f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 6300.0557, y: 149.99998}
+  - id: e93c0f95-ce10-408c-8db7-8ac3c192120e
+    characterName: Jack'O Candy
+    text: "Mais, non ! Ce n\u2019est pas comme \xE7a que \xE7a marche !\r\nOh mis\xE8re\u2026
+      !\r"
+    choices:
+    - name: Next
+      nextDialogueID: 318b85d0-065e-4aa1-ae7b-62a89ee00da3
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: 1d6ad41be9d23dd419094fa84a3a10ec, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 6862.15, y: 149.99995}
+  - id: 318b85d0-065e-4aa1-ae7b-62a89ee00da3
+    characterName: Schnaps
+    text: "D\xE9j\xE0 partie la carotte ? H\xE9, \xE7\u2019aura pas durer longtemps
+      !\r\nBah \xE7a, des bonbons pas en vente\u2026 Sniff moi cette tuerie, c\u2019est
+      un crime de se le garder pour soi\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: 2863fb67-1214-48ec-a7f4-4bae25953b5e
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 7389.8516, y: 150.00003}
+  - id: 2863fb67-1214-48ec-a7f4-4bae25953b5e
+    characterName: Schnaps
+    text: "Bwahaha ! \u2018fin bref, on emballe tout \xE7a et on rentre ni vu ni
+      connu avant que l\u2019autre courge revienne"
+    choices:
+    - name: Next
+      nextDialogueID: 
+    characterSprite: {fileID: 21300000, guid: 6f2491f76cf1836428565242c76bbe9b, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 7978.4517, y: 150}
+  firstNode:
+    id: 9515acc9-1b56-41e1-9da5-b22f5e54c24b
+    characterName: Character
+    text: Text...
+    choices:
+    - name: Next
+      nextDialogueID: 71a49c77-f49a-4ac8-ae0b-d403ec570712
+    characterSprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 6fea10c04d6eefe458d01684e54d59c1, type: 3}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 57, y: 150}

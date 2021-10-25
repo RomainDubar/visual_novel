@@ -10,13 +10,15 @@ namespace DS.Engine.Data {
         public string Text { get => text; set => text = value; }
         public List<DSChoiceData> Choices { get => choices; set => choices = value; }
         public Sprite CharacterSprite { get => characterSprite; set => characterSprite = value; }
+        public Sprite Character2Sprite { get => character2Sprite; set => character2Sprite = value; }
         public Sprite BackgroundSprite { get => backgroundSprite; set => backgroundSprite = value; }
+        public Sprite DialogueSprite { get => dialogueSprite; set => dialogueSprite = value; }
         public Vector2 Position { get => position; set => position = value; }
 
         [SerializeField] private string id;
         [SerializeField] private string characterName, text;
         [SerializeField] private List<DSChoiceData> choices;
-        [SerializeField] private Sprite characterSprite, backgroundSprite;
+        [SerializeField] private Sprite characterSprite, character2Sprite, backgroundSprite, dialogueSprite;
         [SerializeField] private Vector2 position;
 
         public DSNodeData() {
@@ -25,7 +27,9 @@ namespace DS.Engine.Data {
             text = "Text...";
             choices = new List<DSChoiceData>();
             characterSprite = null;
+            character2Sprite = null;
             backgroundSprite = null;
+            dialogueSprite = null;
             position = Vector3.zero;
         }
 
@@ -35,19 +39,12 @@ namespace DS.Engine.Data {
             text = data.Text;
             choices = Clone(data.Choices);
             characterSprite = data.CharacterSprite;
+            character2Sprite = data.Character2Sprite;
             backgroundSprite = data.BackgroundSprite;
+            dialogueSprite = data.DialogueSprite;
             position = new Vector2(data.Position.x, data.Position.y);
         }
 
-        public DSNodeData(string id, string characterName, string text, List<DSChoiceData> choices, Sprite characterSprite, Sprite backgroundSprite, Vector2 position) {
-            this.id = id;
-            this.characterName = characterName;
-            this.text = text;
-            this.choices = choices;
-            this.characterSprite = characterSprite;
-            this.backgroundSprite = backgroundSprite;
-            this.position = position;
-        }
 
 
         private List<DSChoiceData> Clone(List<DSChoiceData> choices) {
