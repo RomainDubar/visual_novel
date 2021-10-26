@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7734223042445865418}
   - component: {fileID: -5641907737965864969}
   - component: {fileID: -1263028754607438107}
+  - component: {fileID: 2925474497471002297}
   m_Layer: 0
   m_Name: New Sprite
   m_TagString: Untagged
@@ -108,7 +109,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.58, y: 12.87}
+  m_Size: {x: 2.31, y: 3.3}
   m_EdgeRadius: 0
 --- !u!114 &-1263028754607438107
 MonoBehaviour:
@@ -125,3 +126,19 @@ MonoBehaviour:
   counter: {fileID: 1256927063793422288, guid: bc8d331a0736ebe4985e5b660871a497, type: 3}
   RandomSpawner: {fileID: 1256927063793422289, guid: bc8d331a0736ebe4985e5b660871a497,
     type: 3}
+--- !u!111 &2925474497471002297
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734223042445865421}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 18e209030d8a45141a9ac950099c9934, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 18e209030d8a45141a9ac950099c9934, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

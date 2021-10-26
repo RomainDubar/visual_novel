@@ -156,7 +156,7 @@ MonoBehaviour:
     - name: Next
       nextDialogueID: 1d0659f0-7f41-4c6e-8b6c-b7466ab20131
     characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
-    character2Sprite: {fileID: 21300000, guid: 1d6ad41be9d23dd419094fa84a3a10ec, type: 3}
+    character2Sprite: {fileID: 21300000, guid: e34e89a9fb9795741b76099fcc992bf6, type: 3}
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 4657, y: 150}
@@ -168,7 +168,7 @@ MonoBehaviour:
     - name: Next
       nextDialogueID: aedbade9-f6a3-45b6-8539-a262343dcdab
     characterSprite: {fileID: 0}
-    character2Sprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: b8972c0e198c30a499b742dfe4b1e5b6, type: 3}
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 0}
     position: {x: 5149.998, y: 150}

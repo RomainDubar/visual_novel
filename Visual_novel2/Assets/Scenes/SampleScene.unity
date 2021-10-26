@@ -512,7 +512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -719.65, y: -183}
+  m_AnchoredPosition: {x: -792, y: -234}
   m_SizeDelta: {x: 480.7, y: 714}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1635457722
@@ -528,9 +528,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thesprite: {fileID: 1635457720}
-  StadeUn: {fileID: 21300000, guid: 23eebb9d1e1121d4988f414cc53a3023, type: 3}
+  StadeUn: {fileID: 21300000, guid: 26e5b9b16d641664dafdab8b882b3e79, type: 3}
   StadeDeux: {fileID: 21300000, guid: 23eebb9d1e1121d4988f414cc53a3023, type: 3}
-  temps: 10
+  temps: 8
   tempsint: 0
 --- !u!114 &1635457723
 MonoBehaviour:

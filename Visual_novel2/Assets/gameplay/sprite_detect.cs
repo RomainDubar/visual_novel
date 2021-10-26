@@ -9,6 +9,7 @@ public class sprite_detect : MonoBehaviour
     public GameObject thesprite;
     public Sprite StadeUn;
     public Sprite StadeDeux;
+    internal Sprite spriteSave;
 
 
     public float temps = 10;
@@ -23,25 +24,37 @@ public class sprite_detect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //tempsint = Mathf.RoundToInt(temps);
-        if(temps >= Savetemps/2)
+        if (thesprite.GetComponent<Image>().sprite != StadeUn)
         {
-            temps -= Time.deltaTime;
-            thesprite.GetComponent<Image>().sprite = StadeUn;
-            random_spawner.CanStealCandy = false;
+            spriteSave = thesprite.GetComponent<Image>().sprite;
         }
+        
+        if (random_spawner.miniGamePlay == true)
+        {
+            if (temps >= Savetemps / 2)
+            {
+                temps -= Time.deltaTime;
+                thesprite.GetComponent<Image>().sprite = StadeUn;
+                random_spawner.CanStealCandy = false;
+            }
 
-        else if (temps < Savetemps / 2 )
-        {
-            temps -= Time.deltaTime;
-            thesprite.GetComponent<Image>().sprite = StadeDeux;
-            random_spawner.CanStealCandy = true;
-        }
+            else if (temps < Savetemps / 2)
+            {
+                temps -= Time.deltaTime;
+                thesprite.GetComponent<Image>().sprite = spriteSave;
+                random_spawner.CanStealCandy = true;
+            }
 
-        if (temps <= 0)
-        {
-            temps = Savetemps;
+            if (temps <= 0)
+            {
+                temps = Savetemps;
+            }
         }
+        else
+        {
+
+        }
+        
 
 
 
