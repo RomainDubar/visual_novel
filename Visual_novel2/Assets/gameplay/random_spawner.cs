@@ -14,9 +14,15 @@ public class random_spawner : MonoBehaviour
     public GameObject charasprite;
     public Sprite [] Sorciere;
     public Image img;
+    public GameObject Onomat;
 
+
+    //internal static GameObject Saveobject;
+    //internal static GameObject TheOnomatop;
     private void Start()
     {
+        //Saveobject = charasprite;
+        //TheOnomatop = Onomat;
         CandyInScene = 0;
         TheSpawnCandy = numberCandy;
 
@@ -65,9 +71,9 @@ public class random_spawner : MonoBehaviour
     {
         if (CanStealCandy == true)
         {
-            float x = 0;
             counter.score = counter.score / 2;
             CandyInScene -= 1;
+
 
             //for (float i = 0; i <= 1; i += Time.deltaTime)
             //{
@@ -105,6 +111,7 @@ public class random_spawner : MonoBehaviour
             else
             {
                 miniGamePlay = false;
+
             }
             Debug.Log(c);
             c = c + 1;

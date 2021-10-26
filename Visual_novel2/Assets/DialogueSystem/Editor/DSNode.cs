@@ -57,6 +57,8 @@ namespace DS.Editor {
             extensionContainer.Add(ElementUtility.CreateObjectField<Sprite>("Character Sprite 2", Data.Character2Sprite, false, ChangeCharacterSprite2));
             extensionContainer.Add(ElementUtility.CreateObjectField<Sprite>("Background Sprite", Data.BackgroundSprite, false, ChangeBackgroundSprite));
             extensionContainer.Add(ElementUtility.CreateObjectField<Sprite>("Dialogue Sprite", Data.DialogueSprite, false, ChangeDialogueSprite));
+            extensionContainer.Add(ElementUtility.CreateToggle("Is left talking", Data.LeftChar, ChangeLeftCharacter));
+          
         }
 
         private void ChangeCharacterName(ChangeEvent<string> evt) {
@@ -88,6 +90,13 @@ namespace DS.Editor {
             Data.DialogueSprite = evt.newValue as Sprite;
             graphView.SetDirty();
         }
+
+        private void ChangeLeftCharacter(ChangeEvent<bool> evt)
+        {
+            Data.LeftChar = evt.newValue;
+            graphView.SetDirty();
+        }
+        
         #endregion
 
         #region Utility

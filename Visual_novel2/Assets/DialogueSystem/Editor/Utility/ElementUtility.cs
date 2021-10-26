@@ -40,5 +40,14 @@ namespace DS.Editor.Utility {
             objectField.AddClasses(classNames);
             return objectField;
         }
+
+        public static Toggle CreateToggle(string label = "", bool value = false,EventCallback<ChangeEvent<bool>> onValueChanged = null, params string[] classNames) {
+            Toggle toggle = new Toggle(label) {
+                value = value,
+            };
+            if(onValueChanged != null) toggle.RegisterValueChangedCallback(onValueChanged);
+            toggle.AddClasses(classNames);
+            return toggle;
+        }
     }
 }

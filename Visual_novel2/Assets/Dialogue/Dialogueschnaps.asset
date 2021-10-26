@@ -24,17 +24,19 @@ MonoBehaviour:
     backgroundSprite: {fileID: 21300000, guid: 6fea10c04d6eefe458d01684e54d59c1, type: 3}
     dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
     position: {x: 57, y: 150}
+    leftChar: 0
   - id: 71a49c77-f49a-4ac8-ae0b-d403ec570712
     characterName: Schnaps
-    text: ZzzzZZZZzzzZZ
+    text: Zzzz<color=red>ZZZZ</color>zzzZZ
     choices:
     - name: Next
       nextDialogueID: fc6c7c83-49b4-4da2-81af-b2706877ed7c
-    characterSprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    characterSprite: {fileID: 21300000, guid: 5cb8bb91aa19ef34b86fd21dce478d4a, type: 3}
     character2Sprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
     backgroundSprite: {fileID: 21300000, guid: 36a2dcf413a34944891e6d16923c7ae9, type: 3}
     dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
     position: {x: 522, y: 150}
+    leftChar: 0
   - id: fc6c7c83-49b4-4da2-81af-b2706877ed7c
     characterName: Schnaps
     text: bwwWWARGh
@@ -46,6 +48,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: 0b82d717abf0b0945bf4855a2f4e9df9, type: 3}
     position: {x: 1020.75, y: 150.00003}
+    leftChar: 0
   - id: 8933f3af-36ba-4bbe-b3da-a47966042007
     characterName: Schnaps
     text: "Argh ! Fichus cauchemars ! En plein milieu du jour en plus ! \r\nUne p\xE9nurie
@@ -58,6 +61,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
     position: {x: 1488.4001, y: 150.00003}
+    leftChar: 0
   - id: d38aa3ca-d036-4b53-9300-60c5fe43b5eb
     characterName: Schnaps
     text: "Tiens, j\u2019ai la dalle en parlant de \xE7a ! A cette heure-ci tout
@@ -69,7 +73,8 @@ MonoBehaviour:
     character2Sprite: {fileID: 0}
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
-    position: {x: 1982.5559, y: 149.99998}
+    position: {x: 1986, y: 150.00002}
+    leftChar: 0
   - id: ec4e666f-9ac2-473b-addd-ff50646321dc
     characterName: Schnaps
     text: "Et si je rendais une petite visite diurne au nouveau magasin de bonbons
@@ -82,6 +87,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
     position: {x: 2558.817, y: 149.99998}
+    leftChar: 0
   - id: cd9049f2-937e-4146-bde1-3e9108e1f12a
     characterName: Character
     text: Text...
@@ -93,6 +99,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 21300000, guid: 116a1497189a83b4ea513df0e12ad9b4, type: 3}
     dialogueSprite: {fileID: 0}
     position: {x: 3214.0007, y: 150.00002}
+    leftChar: 1
   - id: b90d94e7-14ee-4106-867a-88923ff8df4f
     characterName: Schnaps
     text: "Mh\u2026 ? La porte est ouverte\u2026 ? Bah ! Encore plus simple que de
@@ -105,6 +112,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 21300000, guid: 9ffe1d32f9be7d1409d6871c20ff97eb, type: 3}
     dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
     position: {x: 3529.8967, y: 150.00002}
+    leftChar: 1
   - id: e455349d-6d87-4d25-8168-0e825302a40a
     characterName: Schnaps
     text: "Warf ! C\u2019est immense ici ! Mate moi tous ces bonbecs !\r\n"
@@ -116,6 +124,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: 0b82d717abf0b0945bf4855a2f4e9df9, type: 3}
     position: {x: 4165.2017, y: 150}
+    leftChar: 0
   - id: 1027ba6a-10f2-4f70-ac83-f9088e21e992
     characterName: Character
     text: Text...
@@ -126,7 +135,8 @@ MonoBehaviour:
     character2Sprite: {fileID: 0}
     backgroundSprite: {fileID: 21300000, guid: 4fb56a3844ec4ea4aa4bcde97dccc679, type: 3}
     dialogueSprite: {fileID: 0}
-    position: {x: 4103.1655, y: 1096.1537}
+    position: {x: 42640.957, y: 491.99994}
+    leftChar: 0
   - id: 14be8cbb-5fa5-45ea-a8ee-fe585224ed74
     characterName: Character
     text: Text...
@@ -137,7 +147,8 @@ MonoBehaviour:
     character2Sprite: {fileID: 0}
     backgroundSprite: {fileID: 21300000, guid: dbd2101acba2aa4448abe897dabf6a54, type: 3}
     dialogueSprite: {fileID: 0}
-    position: {x: 4103.1655, y: 1289.1538}
+    position: {x: 43008.082, y: 556.5034}
+    leftChar: 0
   - id: 65ac4d31-8f8f-4ffa-961d-2d9db61f0b9d
     characterName: Character
     text: Text...
@@ -148,7 +159,8 @@ MonoBehaviour:
     character2Sprite: {fileID: 0}
     backgroundSprite: {fileID: 21300000, guid: a8f0b4953e5ce604d9dfafbcef1472b7, type: 3}
     dialogueSprite: {fileID: 0}
-    position: {x: 4103.1655, y: 1499.1537}
+    position: {x: 43008.082, y: 766.5034}
+    leftChar: 0
   - id: f0d55133-a7f8-438a-b705-a5275530e864
     characterName: Jack'O Candy
     text: Bonjour ! Comment puis-je vous aid-
@@ -156,10 +168,11 @@ MonoBehaviour:
     - name: Next
       nextDialogueID: 1d0659f0-7f41-4c6e-8b6c-b7466ab20131
     characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
-    character2Sprite: {fileID: 21300000, guid: e34e89a9fb9795741b76099fcc992bf6, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 1d6ad41be9d23dd419094fa84a3a10ec, type: 3}
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 4657, y: 150}
+    leftChar: 0
   - id: 1d0659f0-7f41-4c6e-8b6c-b7466ab20131
     characterName: Jack'O Candy
     text: "Hey ! Ca fait beaucoup de bonbons ! Vous comptez vraiment payer tout \xE7a
@@ -168,10 +181,11 @@ MonoBehaviour:
     - name: Next
       nextDialogueID: aedbade9-f6a3-45b6-8539-a262343dcdab
     characterSprite: {fileID: 0}
-    character2Sprite: {fileID: 21300000, guid: b8972c0e198c30a499b742dfe4b1e5b6, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 1d6ad41be9d23dd419094fa84a3a10ec, type: 3}
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 0}
     position: {x: 5149.998, y: 150}
+    leftChar: 0
   - id: aedbade9-f6a3-45b6-8539-a262343dcdab
     characterName: Schnaps
     text: "Warf ! M\u2019avez fait peur !"
@@ -183,6 +197,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: 0b82d717abf0b0945bf4855a2f4e9df9, type: 3}
     position: {x: 5795, y: 150}
+    leftChar: 0
   - id: 9aa769c2-21e1-4790-95f2-6659a1d829bc
     characterName: Schnaps
     text: "Enfin, j\u2019veux dire\u2026 Techniquement, j\u2019ai pas le droit de
@@ -195,6 +210,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
     position: {x: 6300.0557, y: 149.99998}
+    leftChar: 0
   - id: e93c0f95-ce10-408c-8db7-8ac3c192120e
     characterName: Jack'O Candy
     text: "Mais, non ! Ce n\u2019est pas comme \xE7a que \xE7a marche !\r\nOh mis\xE8re\u2026
@@ -207,6 +223,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 6862.15, y: 149.99995}
+    leftChar: 0
   - id: 318b85d0-065e-4aa1-ae7b-62a89ee00da3
     characterName: Schnaps
     text: "D\xE9j\xE0 partie la carotte ? H\xE9, \xE7\u2019aura pas durer longtemps
@@ -220,18 +237,922 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
     position: {x: 7389.8516, y: 150.00003}
+    leftChar: 0
   - id: 2863fb67-1214-48ec-a7f4-4bae25953b5e
     characterName: Schnaps
     text: "Bwahaha ! \u2018fin bref, on emballe tout \xE7a et on rentre ni vu ni
       connu avant que l\u2019autre courge revienne"
     choices:
     - name: Next
-      nextDialogueID: 
+      nextDialogueID: 24c59745-e94a-4d6a-bdaf-bf79b46d99b4
     characterSprite: {fileID: 21300000, guid: 6f2491f76cf1836428565242c76bbe9b, type: 3}
     character2Sprite: {fileID: 0}
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
     position: {x: 7978.4517, y: 150}
+    leftChar: 0
+  - id: 24c59745-e94a-4d6a-bdaf-bf79b46d99b4
+    characterName: "Sorci\xE8re"
+    text: "Tu es donc venu me d\xE9ranger pour cette petite chose ? Ce n\u2019est
+      qu\u2019un enfant !"
+    choices:
+    - name: Next
+      nextDialogueID: 793e0258-dd8f-4982-82aa-60e84b90a508
+    characterSprite: {fileID: 21300000, guid: 5cb8bb91aa19ef34b86fd21dce478d4a, type: 3}
+    character2Sprite: {fileID: 21300000, guid: abed68dab46533f4ebff1742b8c0c538, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 8544.793, y: 149.99994}
+    leftChar: 0
+  - id: 793e0258-dd8f-4982-82aa-60e84b90a508
+    characterName: Jack'O Candy
+    text: "Mais\u2026 C\u2019est qu\u2019il est plut\xF4t intimidant\u2026..."
+    choices:
+    - name: Next
+      nextDialogueID: 39946d0a-5cc3-447f-9a8e-0572cd3d4c64
+    characterSprite: {fileID: 21300000, guid: bd3f0b9ee1ea2e44fa8042643e7fe4b5, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 9052, y: 150}
+    leftChar: 0
+  - id: 39946d0a-5cc3-447f-9a8e-0572cd3d4c64
+    characterName: Schnaps
+    text: "Choice A: BwaAa ! Mais vous \xEAtes tous somnambule dans c\u2019te case
+      ma parole !\r\nChoice B: Bwarf ! Tu sais c\u2019qu\u2019y t\u2019dit le mioche,
+      la ringarde ?!\nChoice C: Skriii ! Chuis cuit !"
+    choices:
+    - name: A
+      nextDialogueID: 133bd79a-1d15-4717-a395-4910be204e4f
+    - name: B
+      nextDialogueID: 133bd79a-1d15-4717-a395-4910be204e4f
+    - name: C
+      nextDialogueID: c5f927cd-b5e7-4624-a4c0-62958b73a038
+    characterSprite: {fileID: 21300000, guid: 0ca9f61f013b95f4694ed7f08252d284, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 9545.753, y: 99.78873}
+    leftChar: 0
+  - id: 133bd79a-1d15-4717-a395-4910be204e4f
+    characterName: "Sorci\xE8re"
+    text: "Quel petit insolent !\r"
+    choices:
+    - name: Next
+      nextDialogueID: 5a3b4343-691b-45ff-9172-d136dc271501
+    characterSprite: {fileID: 21300000, guid: 6f2491f76cf1836428565242c76bbe9b, type: 3}
+    character2Sprite: {fileID: 21300000, guid: e34e89a9fb9795741b76099fcc992bf6, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
+    position: {x: 10142.259, y: 16.262918}
+    leftChar: 0
+  - id: c5f927cd-b5e7-4624-a4c0-62958b73a038
+    characterName: "Sorci\xE8re"
+    text: "Ca, je ne te le fais pas dire !\r"
+    choices:
+    - name: Next
+      nextDialogueID: 5a3b4343-691b-45ff-9172-d136dc271501
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 26e5b9b16d641664dafdab8b882b3e79, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 10142, y: 261.00003}
+    leftChar: 0
+  - id: 5a3b4343-691b-45ff-9172-d136dc271501
+    characterName: "Sorci\xE8re"
+    text: "Maintenant, tu vas rendre gentiment tous ces bonbons avant que je ne me
+      f\xE2che pour de vrai. Que font donc tes parents ? Les louveteaux-garous ne
+      sont-ils pas cens\xE9s vivre la nuit ? \r"
+    choices:
+    - name: Next
+      nextDialogueID: 8dd36a56-ba3a-4923-ba05-2d8f8172e175
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 26e5b9b16d641664dafdab8b882b3e79, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 10746.219, y: 172.50993}
+    leftChar: 0
+  - id: 8dd36a56-ba3a-4923-ba05-2d8f8172e175
+    characterName: Schnaps
+    text: "Hey ! Elle se prend pour qui celle-l\xE0 ? T\u2019es bien gentille ma
+      minette, mais mes vieux y pioncent en ce moment m\xEAme."
+    choices:
+    - name: Next
+      nextDialogueID: 50d92a58-d10c-4768-a651-41c84c71ef69
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 11314.38, y: 173}
+    leftChar: 0
+  - id: 50d92a58-d10c-4768-a651-41c84c71ef69
+    characterName: "Sorci\xE8re"
+    text: "Raison de plus pour rentrer chez toi et laisser les grandes personnes
+      faire leur travail. L'exc\xE8s de sucre est mauvais pour tes dents, sans compter
+      que\u2026"
+    choices:
+    - name: Next
+      nextDialogueID: 4c16a4ca-8e39-4486-93b4-6931528d08c9
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: abed68dab46533f4ebff1742b8c0c538, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 11905.577, y: 173}
+    leftChar: 0
+  - id: 4c16a4ca-8e39-4486-93b4-6931528d08c9
+    characterName: "Sorci\xE8re"
+    text: "Bla bla bl, blabla. Bla bla bla blablabla bla ! Bla bla\u2026"
+    choices:
+    - name: Next
+      nextDialogueID: e548a8a3-629e-43b9-a654-672784a3efbe
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: 26e5b9b16d641664dafdab8b882b3e79, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 12467.423, y: 172.99998}
+    leftChar: 0
+  - id: e548a8a3-629e-43b9-a654-672784a3efbe
+    characterName: Schnaps
+    text: "Bwaaa, lourd ! Tu penses que je pourrais me barrer subrepticement pendant
+      qu\u2019elle jacte, la vieille ? "
+    choices:
+    - name: Next
+      nextDialogueID: 1f895181-9e6c-4e8a-b880-36e95d0ae444
+    characterSprite: {fileID: 21300000, guid: 59e73db88c4681e46b4ff59f1ebe095f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 12906.253, y: 173.00002}
+    leftChar: 0
+  - id: 1f895181-9e6c-4e8a-b880-36e95d0ae444
+    characterName: Schnaps
+    text: "Mmhpfh, c\u2019est sans compter T\xEAte de carotte. Il me l\xE2che pas
+      du regard. M\xF4man s\u2019ra pas contente si elle d\xE9couvre que j\u2019fais
+      encore du grabuge \xE0 une heure pareille\u2026"
+    choices:
+    - name: Next
+      nextDialogueID: 935b3b8a-5ece-4710-a265-36c5289291fb
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 13445.167, y: 173}
+    leftChar: 0
+  - id: 935b3b8a-5ece-4710-a265-36c5289291fb
+    characterName: Jack'O Candy
+    text: "Ne soyez pas si dur envers lui Ma\xEEtresse, je suis s\xFBre que ce petit
+      garnement \xE0 la langue bien pendue doit avoir une bonne raison pour s\u2019introduire
+      ainsi dans notre boutique\u2026"
+    choices:
+    - name: Next
+      nextDialogueID: 0c228f53-3525-412c-ad8f-6d62f45530f8
+    characterSprite: {fileID: 21300000, guid: bd3f0b9ee1ea2e44fa8042643e7fe4b5, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 14015, y: 173}
+    leftChar: 0
+  - id: 0c228f53-3525-412c-ad8f-6d62f45530f8
+    characterName: Schnaps
+    text: "Houla ! Faudrait penser \xE0 tirer moins fort sur la bouteille ma p\u2019tite
+      courge\r"
+    choices:
+    - name: Next
+      nextDialogueID: 31b8a0e4-62b5-4d26-af29-814798c6d0f9
+    characterSprite: {fileID: 21300000, guid: 0ca9f61f013b95f4694ed7f08252d284, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 14572.62, y: 173}
+    leftChar: 0
+  - id: 31b8a0e4-62b5-4d26-af29-814798c6d0f9
+    characterName: Schnaps
+    text: "Cela dit\u2026 Il me tend une perche que je ne peux pas refuser\u2026
+      Bon, quand faut y aller\u2026"
+    choices:
+    - name: Next
+      nextDialogueID: 289805e5-446d-438b-b112-0f1911366325
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 15045, y: 173}
+    leftChar: 0
+  - id: 289805e5-446d-438b-b112-0f1911366325
+    characterName: Schnaps
+    text: "Il a raison Madame, c\u2019est bient\xF4t le festival annuel de Kif\xE9peurville,
+      vous savez ? \nUne grande chasse au bonbon sera organis\xE9e chez les Humains,
+      \net tous les enfants de la ville pourra y participer \xE9galement !"
+    choices:
+    - name: Next
+      nextDialogueID: 5115fb89-5d33-4cdc-ae52-7ecb1eb51e2e
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 15624.251, y: 173}
+    leftChar: 0
+  - id: 5115fb89-5d33-4cdc-ae52-7ecb1eb51e2e
+    characterName: Schnaps
+    text: "Enfin, \xE7a c\u2019est dans le faits\u2026 Je connais plein de mes camarades
+      qui peuvent pas y participer parce qu\u2019ils sont trop jeunes, ou qu\u2019ils
+      sont consid\xE9r\xE9s comme trop dangereux\u2026 Vous imaginez ? Une f\xEAte
+      o\xF9 tout le monde se goinfre de sucrerie devant ton pif sans que vous puissiez
+      ne rien faire ?"
+    choices:
+    - name: Next
+      nextDialogueID: 051aed91-bc61-472e-b2c1-2a7ba7206b70
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 16134.04, y: 173}
+    leftChar: 0
+  - id: 051aed91-bc61-472e-b2c1-2a7ba7206b70
+    characterName: "Sorci\xE8re"
+    text: "Eh bien ! Quel changement d\u2019attitude ! C\u2019est pour le moins\u2026
+      d\xE9routant\u2026"
+    choices:
+    - name: Next
+      nextDialogueID: 9c1edce3-843a-4f76-824a-a2e096d009d8
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: b8972c0e198c30a499b742dfe4b1e5b6, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 16716.13, y: 172.99998}
+    leftChar: 0
+  - id: 9c1edce3-843a-4f76-824a-a2e096d009d8
+    characterName: "Sorci\xE8re"
+    text: "Et donc\u2026 Au lieu d\u2019en parler \xE0 un adulte responsable, tu
+      pr\xE9f\xE8res t'introduire chez une honn\xEAte bonbonni\xE8re pour lui voler
+      le fruit de son travail ? \r\n"
+    choices:
+    - name: Next
+      nextDialogueID: 481c49b1-ada4-4af0-b066-aa6c644e84df
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: 26e5b9b16d641664dafdab8b882b3e79, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 17215, y: 173}
+    leftChar: 0
+  - id: 481c49b1-ada4-4af0-b066-aa6c644e84df
+    characterName: Schnaps
+    text: "Choice A: Baaaah, ouais, en fait.\r\nChoice B: Je reconnais la stupidit\xE9
+      de mon acte\r\nChoice C: C\u2019est pas ce que vous croyiez\u2026\r\n"
+    choices:
+    - name: A
+      nextDialogueID: 6ce21f9e-5f1c-4a99-af38-499e37f43e3c
+    - name: B
+      nextDialogueID: 66ac1b0f-e388-44e9-b5a2-4e477ce899f3
+    - name: C
+      nextDialogueID: 6ce21f9e-5f1c-4a99-af38-499e37f43e3c
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 17833, y: 173}
+    leftChar: 0
+  - id: 6ce21f9e-5f1c-4a99-af38-499e37f43e3c
+    characterName: "Sorci\xE8re"
+    text: "Pff ! Je n\u2019arrive pas \xE0 croire que je perd mon temps avec ce gamin...\r"
+    choices:
+    - name: Next
+      nextDialogueID: e8dda623-08ca-40da-8da0-bff88fa25a82
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: abed68dab46533f4ebff1742b8c0c538, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 18363.988, y: 15.557625}
+    leftChar: 0
+  - id: 66ac1b0f-e388-44e9-b5a2-4e477ce899f3
+    characterName: "Sorci\xE8re"
+    text: "M\xEAme si je me dois d\u2019admettre que cette r\xE9ponse est forte plaisante
+      \xE0 entendre\u2026 Tu sembles beaucoup trop louche pour \xEAtre sinc\xE8re
+      !\r"
+    choices:
+    - name: Next
+      nextDialogueID: e8dda623-08ca-40da-8da0-bff88fa25a82
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: 26e5b9b16d641664dafdab8b882b3e79, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 18364, y: 270.80463}
+    leftChar: 0
+  - id: e8dda623-08ca-40da-8da0-bff88fa25a82
+    characterName: "Sorci\xE8re"
+    text: "Donne moi donc une bonne raison de ne pas t\u2019occire sur place\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: 58847bfa-af7e-47c8-a0cd-1502b81047e1
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: 26e5b9b16d641664dafdab8b882b3e79, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 18978.574, y: 127}
+    leftChar: 0
+  - id: 58847bfa-af7e-47c8-a0cd-1502b81047e1
+    characterName: Schnaps
+    text: "Pour qui tu te prends vieille peau ! Plus personne prend les sorci\xE8res
+      au s\xE9rieux de nos jours !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: 606d267e-b7ed-44b4-adb1-bb82cc03f014
+    characterSprite: {fileID: 21300000, guid: 40f33450a918fd14d8087243cad0dbfd, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 19533.994, y: 127}
+    leftChar: 0
+  - id: 606d267e-b7ed-44b4-adb1-bb82cc03f014
+    characterName: Schnaps
+    text: "Je l\u2019avoue, j\u2019ai la r\xE9putation d\u2019\xEAtre le sale gosse
+      du quartier\u2026\r"
+    choices:
+    - name: Next
+      nextDialogueID: 9183a424-6a37-4dae-837e-b2db7f5f0ef0
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 20130.582, y: 127}
+    leftChar: 0
+  - id: 9183a424-6a37-4dae-837e-b2db7f5f0ef0
+    characterName: Schnaps
+    text: "Nyark ! Et quelle r\xE9putation ! Tout le quartier me respect, mon gars
+      !"
+    choices:
+    - name: Next
+      nextDialogueID: 9754318b-8359-487a-8026-76294225b4fc
+    characterSprite: {fileID: 21300000, guid: 6f2491f76cf1836428565242c76bbe9b, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 20593.34, y: 127.000015}
+    leftChar: 0
+  - id: 9754318b-8359-487a-8026-76294225b4fc
+    characterName: Schnaps
+    text: "Moi je veux juste apporter un peu de bonheur dans le coeur de mes camarades.
+      \nLe soucis est que, j\u2019ai l\u2019air bien trop louche pour tout le monde\u2026
+      \nOn me prend plus au s\xE9rieux en fait ! Du coup\u2026\r"
+    choices:
+    - name: Next
+      nextDialogueID: 6cbcb70f-e1ee-455a-b817-c50275c9d1f3
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 21113.355, y: 127.00001}
+    leftChar: 0
+  - id: 6cbcb70f-e1ee-455a-b817-c50275c9d1f3
+    characterName: "Sorci\xE8re"
+    text: "Tu as d\xE9cid\xE9 de jouer les justiciers en commettant un crime pour
+      te faire pardonner de tes anciennes mauvaises actions, c\u2019est bien cela
+      ?"
+    choices:
+    - name: Next
+      nextDialogueID: 7159297b-a00a-4079-842f-f603f192941e
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: b8972c0e198c30a499b742dfe4b1e5b6, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 21629.39, y: 127}
+    leftChar: 0
+  - id: 7159297b-a00a-4079-842f-f603f192941e
+    characterName: Schnaps
+    text: "Argh, c\u2019est qu\u2019elle cache bel et bien un cerveau sous ce grand
+      chapeau ridicule !"
+    choices:
+    - name: Next
+      nextDialogueID: c866d3f7-1c04-4d6b-aa58-939e000c18d9
+    characterSprite: {fileID: 21300000, guid: 40f33450a918fd14d8087243cad0dbfd, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 22246.988, y: 127.00002}
+    leftChar: 0
+  - id: c866d3f7-1c04-4d6b-aa58-939e000c18d9
+    characterName: Jack'O Candy
+    text: "Oooh, mais ma\xEEtresse ! \nPensez \xE0 tous ces enfants qui seront tristes
+      sans tous ces d\xE9licieux bonbons\u2026"
+    choices:
+    - name: Next
+      nextDialogueID: 7ab3633a-b7ea-4d1e-8fe8-e0300dffb287
+    characterSprite: {fileID: 21300000, guid: bd3f0b9ee1ea2e44fa8042643e7fe4b5, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 22782.832, y: 127.00003}
+    leftChar: 0
+  - id: 7ab3633a-b7ea-4d1e-8fe8-e0300dffb287
+    characterName: "Sorci\xE8re"
+    text: "Ne prend pas sa d\xE9fense, Jack\u2019O Candy ! \nNous ne faisons pas
+      dans la charit\xE9, si nous devions donner nos sucreries \xE0 chaque enfant
+      triste, nous ne tiendrions pas deux minutes ! \nDois-je te rappeler \xE0 quel
+      point les monstres juv\xE9niles adorent le saccharose ?\r"
+    choices:
+    - name: Next
+      nextDialogueID: 5a257296-8b87-477d-9f83-ff9b2c8f6beb
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: abed68dab46533f4ebff1742b8c0c538, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 23305.21, y: 127.00001}
+    leftChar: 0
+  - id: 5a257296-8b87-477d-9f83-ff9b2c8f6beb
+    characterName: Schnaps
+    text: "Choice A: Ouais ! Ferme- l\xE0 un peu, l\u2019potiron !\r\nChoice B: Vous
+      pouvez bien faire une exception pendant une soir\xE9e ? \r\nChoice C: On peut
+      peut-\xEAtre trouver un terrain d\u2019entente ? \r"
+    choices:
+    - name: A
+      nextDialogueID: 5da37a91-fffb-4483-894f-0377024f52d5
+    - name: B
+      nextDialogueID: 0cdfa08e-a7e8-4b9f-b566-efaab66f4e09
+    - name: C
+      nextDialogueID: b9c91adb-855e-4047-8b3a-1ffa552421c3
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 23892.205, y: 127.00001}
+    leftChar: 0
+  - id: 5da37a91-fffb-4483-894f-0377024f52d5
+    characterName: "Sorci\xE8re"
+    text: "Cesse donc tes mani\xE8res ! Je suis la seule en droit de r\xE9primander
+      mon assistant !"
+    choices:
+    - name: Next
+      nextDialogueID: bdfcf249-5e74-4ccf-946d-60e8edf9a820
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: abed68dab46533f4ebff1742b8c0c538, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 24432.215, y: -70.35724}
+    leftChar: 0
+  - id: 0cdfa08e-a7e8-4b9f-b566-efaab66f4e09
+    characterName: "Sorci\xE8re"
+    text: "Que ce soit pour une nuit ou une journ\xE9e, le constat est le m\xEAme
+      ! \nAs-tu la moindre id\xE9e du nombre de bonbons que tu t\u2019appr\xEAtais
+      \xE0 voler ? \r\n"
+    choices:
+    - name: Next
+      nextDialogueID: bdfcf249-5e74-4ccf-946d-60e8edf9a820
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: 26e5b9b16d641664dafdab8b882b3e79, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 24432.215, y: 151.64276}
+    leftChar: 0
+  - id: b9c91adb-855e-4047-8b3a-1ffa552421c3
+    characterName: "Sorci\xE8re"
+    text: "Tu parais bien trop gentil d\u2019un coup\u2026 "
+    choices:
+    - name: Next
+      nextDialogueID: bdfcf249-5e74-4ccf-946d-60e8edf9a820
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: b8972c0e198c30a499b742dfe4b1e5b6, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 24432, y: 404}
+    leftChar: 0
+  - id: bdfcf249-5e74-4ccf-946d-60e8edf9a820
+    characterName: Schnaps
+    text: "Bah, c\u2019est que j\u2019ai eu peur quand je vous ai vu arriver, et
+      puis, j\n\u2019avoue j\u2019ai pas les meilleures mani\xE8res qui soient\u2026
+      Mais dans le fond, \nj\u2019aboie plus fort que je ne mord !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: e541c314-b888-4307-b6a0-d6e32ae6cbb0
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 25042, y: 152}
+    leftChar: 0
+  - id: e541c314-b888-4307-b6a0-d6e32ae6cbb0
+    characterName: Schnaps
+    text: "M\u2019enfin\u2026 Si vous me passez un peu de vos bonbons\u2026 \xE7a
+      passe ? \nJ\u2019pourrais organiser une petite soir\xE9e sympathique, et peut-\xEAtre
+      que la ville vous remerciera de votre acte de bont\xE9 ou un truc du genre
+      ?"
+    choices:
+    - name: Next
+      nextDialogueID: b2c2fc15-8c8c-4d4d-962d-c7a7b609410b
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 25524.48, y: 152}
+    leftChar: 0
+  - id: b2c2fc15-8c8c-4d4d-962d-c7a7b609410b
+    characterName: Jack'O Candy
+    text: "Ca me semble \xEAtre un bon compromis ! Il faut que vous l\u2019aidi-\r"
+    choices:
+    - name: Next
+      nextDialogueID: fc004798-5ae2-4053-8432-1df78c4e4447
+    characterSprite: {fileID: 21300000, guid: bd3f0b9ee1ea2e44fa8042643e7fe4b5, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 26083.463, y: 152}
+    leftChar: 0
+  - id: fc004798-5ae2-4053-8432-1df78c4e4447
+    characterName: "Sorci\xE8re"
+    text: "Il suffit Jack\u2019O Candy ! Laisse-moi r\xE9fl\xE9chir\u2026\r"
+    choices:
+    - name: Next
+      nextDialogueID: 47ab56fa-8ed0-4f31-96a8-7a3618e438cb
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: abed68dab46533f4ebff1742b8c0c538, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 26540.36, y: 152}
+    leftChar: 0
+  - id: 47ab56fa-8ed0-4f31-96a8-7a3618e438cb
+    characterName: Jack'O Candy
+    text: Gloups !
+    choices:
+    - name: Next
+      nextDialogueID: 56002827-0da3-4d52-ad02-ccd329aa0751
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 26967.715, y: 152}
+    leftChar: 0
+  - id: 56002827-0da3-4d52-ad02-ccd329aa0751
+    characterName: "Sorci\xE8re"
+    text: "Je n\u2019ai pas tant envie de te faire confiance\u2026 \nMais soit, tu
+      peux partir avec quelques bonbons\u2026 \nMais ne touche surtout pas \xE0 ces
+      friandises l\xE0 ! Elles ne sont pas \xE0 vendre !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: 4bafdae6-9076-4d11-8bd4-80ee9f187863
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: 26e5b9b16d641664dafdab8b882b3e79, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 27402.84, y: 152}
+    leftChar: 0
+  - id: 4bafdae6-9076-4d11-8bd4-80ee9f187863
+    characterName: "Sorci\xE8re"
+    text: "Et si tu me fais marcher\u2026 Comptes sur moi pour te retrouver et te
+      le faire payer\u2026 "
+    choices:
+    - name: Next
+      nextDialogueID: e266bcfd-c64b-4fb3-9283-85aa4f94f4bd
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 27933.549, y: 152}
+    leftChar: 0
+  - id: e266bcfd-c64b-4fb3-9283-85aa4f94f4bd
+    characterName: 
+    text: 
+    choices:
+    - name: Next
+      nextDialogueID: 42e3b322-a071-4c42-b9e0-a9115e15acea
+    characterSprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 43a8f82fe76a97049a6998af4d724d7e, type: 3}
+    dialogueSprite: {fileID: 21300000, guid: 3715e62ea55000b478e2a66419658bee, type: 3}
+    position: {x: 28493.3, y: 492.3501}
+    leftChar: 0
+  - id: 42e3b322-a071-4c42-b9e0-a9115e15acea
+    characterName: Schnaps
+    text: "Mh\u2026 ? Elle compte vraiment me refiler ces bonbons craignosses ? Quelle
+      arnaque !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: 2c483b28-4796-4908-8b6e-a2a1abb5edce
+    characterSprite: {fileID: 21300000, guid: 0ca9f61f013b95f4694ed7f08252d284, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 21300000, guid: 9ffe1d32f9be7d1409d6871c20ff97eb, type: 3}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 28821, y: 492}
+    leftChar: 0
+  - id: 2c483b28-4796-4908-8b6e-a2a1abb5edce
+    characterName: Schnaps
+    text: " Miam ! Ces d\xE9licieux petits bonbons sont une caresse pour les narines
+      ! \nHors de question que je les laisse filer !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: 21db0f69-770b-46c2-b95c-89b69b1f852d
+    characterSprite: {fileID: 21300000, guid: 6f2491f76cf1836428565242c76bbe9b, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 29404.29, y: 492}
+    leftChar: 0
+  - id: 21db0f69-770b-46c2-b95c-89b69b1f852d
+    characterName: Schnaps
+    text: "Pas de soucis. Mais dis, ils ont quoi de si sp\xE9cial ces bonbons ? Ils
+      sont \xE9normes ! \nT\u2019en avez un paquet en plus. On pourrait facile nourrir
+      toute une ville avec \xE7a\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: e029cd6a-6597-4eae-a9c9-bdfccf599bfd
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 29882.057, y: 492.00003}
+    leftChar: 0
+  - id: e029cd6a-6597-4eae-a9c9-bdfccf599bfd
+    characterName: "Sorci\xE8re"
+    text: "De\u2026 De quoi je me m\xEAle ! Sois d\xE9j\xE0 content avec ce que tu
+      as !\r"
+    choices:
+    - name: Next
+      nextDialogueID: d43d89f7-ad0d-4f8b-9316-f8e771213bef
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: e34e89a9fb9795741b76099fcc992bf6, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 30419.873, y: 492}
+    leftChar: 0
+  - id: d43d89f7-ad0d-4f8b-9316-f8e771213bef
+    characterName: Schnaps
+    text: "Je suis curieux, c\u2019est normal pour un \u201Cgosse\u201D, nan ? C\u2019est
+      que t\u2019es plut\xF4t louche en plus !\r"
+    choices:
+    - name: Next
+      nextDialogueID: 49a5d237-3a2d-46ec-abd7-430d96850d05
+    characterSprite: {fileID: 21300000, guid: 59e73db88c4681e46b4ff59f1ebe095f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 30913.518, y: 492.00003}
+    leftChar: 0
+  - id: 49a5d237-3a2d-46ec-abd7-430d96850d05
+    characterName: Jack'O Candy
+    text: "De la part d\u2019un voleur, c\u2019est fameu-"
+    choices:
+    - name: Next
+      nextDialogueID: e47a7c2a-3832-4953-b5d9-75dd0b7b790b
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: 1d6ad41be9d23dd419094fa84a3a10ec, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 31470.918, y: 492.00003}
+    leftChar: 0
+  - id: e47a7c2a-3832-4953-b5d9-75dd0b7b790b
+    characterName: "Sorci\xE8re"
+    text: "Silence, Jack\u2019O Candy ! Il suffit maintenant, hors de ma vue, limace
+      !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: 26c65a65-1dff-477e-a6ed-63934f0e8049
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: e34e89a9fb9795741b76099fcc992bf6, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
+    position: {x: 31945.998, y: 492}
+    leftChar: 0
+  - id: 26c65a65-1dff-477e-a6ed-63934f0e8049
+    characterName: "Sorci\xE8re"
+    text: "Bla bla ! Blablabla bla blabla !! Bla blabla bla\u2026 !\r"
+    choices:
+    - name: Next
+      nextDialogueID: 94673cd5-fa37-4d3f-a207-eb69764a66ab
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 32475.186, y: 492}
+    leftChar: 0
+  - id: 94673cd5-fa37-4d3f-a207-eb69764a66ab
+    characterName: Schnaps
+    text: "Mince, ma langue a fourch\xE9e ! \nC\u2019est que c'est dangereux, une
+      m\xE9g\xE8re en col\xE8re ! \nJe me rappelle encore la fois o\xF9 Tatie avait
+      transform\xE9 l\u2019frangin en tartelette \xE0 l\u2019ananas !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: 3f946413-1234-419e-996d-54124cc8e4bb
+    characterSprite: {fileID: 21300000, guid: 0ca9f61f013b95f4694ed7f08252d284, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
+    position: {x: 32846.1, y: 492.00006}
+    leftChar: 0
+  - id: 3f946413-1234-419e-996d-54124cc8e4bb
+    characterName: Schnaps
+    text: "P\u2019pa m\u2019avait priv\xE9 de dessert pendant une semaine sous pr\xE9texte
+      qu'\u201Don ne doit pas essayer de manger son fr\xE8re, m\xEAme lorsque ce-dernier
+      semble tr\xE8s app\xE9tissant\"\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: ea989ad0-f644-4270-affa-660252795bef
+    characterSprite: {fileID: 21300000, guid: 59e73db88c4681e46b4ff59f1ebe095f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 33407.863, y: 492}
+    leftChar: 0
+  - id: ea989ad0-f644-4270-affa-660252795bef
+    characterName: Schnaps
+    text: "Quel hypocrite !\nChuis s\xFBr que \xE7a aurait \xE9t\xE9 un humain lambda
+      il m\u2019aurait laiss\xE9 le manger\u2026 \r\n"
+    choices:
+    - name: Next
+      nextDialogueID: ace95ff9-eae6-493d-985d-63195aba1b75
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 33957.05, y: 492.00006}
+    leftChar: 0
+  - id: ace95ff9-eae6-493d-985d-63195aba1b75
+    characterName: Schnaps
+    text: "M\u2019enfin, elle m\u2019a pas l\u2019air supra elle est d\xE9concentr\xE9e,
+      et la nuit commence \xE0 pointer. Y\u2019a moyen que je tire avantage de la
+      situation\u2026 "
+    choices:
+    - name: Next
+      nextDialogueID: c93e033b-17a3-4f5b-9d4e-93bd5c93a335
+    characterSprite: {fileID: 21300000, guid: 6f2491f76cf1836428565242c76bbe9b, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 34464.73, y: 492}
+    leftChar: 0
+  - id: c93e033b-17a3-4f5b-9d4e-93bd5c93a335
+    characterName: Jack'O Candy
+    text: "Mh\u2026 C\u2019est que le pauvre enfant \xE0 l\u2019air si triste\u2026\r"
+    choices:
+    - name: Next
+      nextDialogueID: 4308759f-81cd-4b44-ad67-58890d0831ff
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: 1d6ad41be9d23dd419094fa84a3a10ec, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 35052.605, y: 492}
+    leftChar: 0
+  - id: 4308759f-81cd-4b44-ad67-58890d0831ff
+    characterName: "Sorci\xE8re"
+    text: "La ferme Jack\u2019O !"
+    choices:
+    - name: Next
+      nextDialogueID: c303a8df-e662-4c38-af02-d906686fb62f
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: e34e89a9fb9795741b76099fcc992bf6, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
+    position: {x: 35541.348, y: 492}
+    leftChar: 0
+  - id: c303a8df-e662-4c38-af02-d906686fb62f
+    characterName: Jack'O Candy
+    text: "Je peux le comprendre apr\xE8s tout\u2026 il est vrai que ces jolis sucreries
+      sont tr\xE8s app\xE9tissantes !\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: fcab77eb-9e4c-48a0-baaa-12cb93c1d3fb
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: 1d6ad41be9d23dd419094fa84a3a10ec, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
+    position: {x: 36097.516, y: 492}
+    leftChar: 0
+  - id: fcab77eb-9e4c-48a0-baaa-12cb93c1d3fb
+    characterName: Schnaps
+    text: Gloups !
+    choices:
+    - name: Next
+      nextDialogueID: 12132b9a-6e52-495a-9bc3-22cd9b5d1035
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 36753.26, y: 492.00006}
+    leftChar: 0
+  - id: 12132b9a-6e52-495a-9bc3-22cd9b5d1035
+    characterName: Schnaps
+    text: "Ecoute, t\u2019es bien gentille de me passer tes vieux bonbons, mais moi
+      c\u2019que j\u2019veux, ce sont les jolies friandises louches que tu veux m\u2019emp\xEAcher
+      de prendre ! Alors aboule avant que \xE7a vire coton pour toi.\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: f655ca55-70b6-488b-8f28-e8560427ffdf
+    characterSprite: {fileID: 21300000, guid: 77c93f9958d321d438d5656d8d18e35f, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 37282.773, y: 492}
+    leftChar: 0
+  - id: f655ca55-70b6-488b-8f28-e8560427ffdf
+    characterName: "Sorci\xE8re"
+    text: "C\u2019en est assez, il est temps pour toi d\u2019avoir la le\xE7on que
+      tu m\xE9rites !\r"
+    choices:
+    - name: Next
+      nextDialogueID: 76be14b7-ed79-48df-ae11-0a508d2aaeda
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 21300000, guid: e34e89a9fb9795741b76099fcc992bf6, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
+    position: {x: 37885.523, y: 491.99997}
+    leftChar: 0
+  - id: 76be14b7-ed79-48df-ae11-0a508d2aaeda
+    characterName: Schnaps
+    text: "J\u2019voudrais bien voir \xE7a grand-m\xE8re !\r"
+    choices:
+    - name: Next
+      nextDialogueID: 9f6cce70-618c-4be9-bae8-8f97910f14fd
+    characterSprite: {fileID: 21300000, guid: 40f33450a918fd14d8087243cad0dbfd, type: 3}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0b82d717abf0b0945bf4855a2f4e9df9, type: 3}
+    position: {x: 38409.594, y: 491.99997}
+    leftChar: 0
+  - id: 9f6cce70-618c-4be9-bae8-8f97910f14fd
+    characterName: "Sorci\xE8re"
+    text: Bla bla, blabla Bla bla !!
+    choices:
+    - name: Next
+      nextDialogueID: 0d370bda-1e23-4b29-aa6e-1b1595d8d083
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
+    position: {x: 38965.625, y: 492}
+    leftChar: 0
+  - id: 0d370bda-1e23-4b29-aa6e-1b1595d8d083
+    characterName: Schnaps
+    text: Bla bla, blabla Bla Bla, Bla Bla bla !!...
+    choices:
+    - name: Next
+      nextDialogueID: b787ad22-76e4-411e-a492-7f310ab63822
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0b82d717abf0b0945bf4855a2f4e9df9, type: 3}
+    position: {x: 39459.145, y: 492}
+    leftChar: 0
+  - id: b787ad22-76e4-411e-a492-7f310ab63822
+    characterName: "Sorci\xE8re"
+    text: Bla bla, blabla Bla Bla, Bla Bla bla,Bla Bla bla,Bla Bla bla !!...
+    choices:
+    - name: Next
+      nextDialogueID: 5b8907f5-7728-4fbb-a568-28334200915d
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
+    position: {x: 39964.645, y: 492}
+    leftChar: 0
+  - id: 5b8907f5-7728-4fbb-a568-28334200915d
+    characterName: Schnaps
+    text: Bla bla, blabla Bla Bla, Bla Bla bla,Bla Bla bla,bla bla bla,Bla Bla bla
+      !!...
+    choices:
+    - name: Next
+      nextDialogueID: 355134d2-6094-4ce1-8a9c-813d47badeb2
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: 0b82d717abf0b0945bf4855a2f4e9df9, type: 3}
+    position: {x: 40386.8, y: 492}
+    leftChar: 0
+  - id: 355134d2-6094-4ce1-8a9c-813d47badeb2
+    characterName: Jack'O Candy
+    text: "\u2026\r"
+    choices:
+    - name: Next
+      nextDialogueID: 11848ed2-b53b-4ebd-b3d3-a7fd4adce711
+    characterSprite: {fileID: 21300000, guid: bd3f0b9ee1ea2e44fa8042643e7fe4b5, type: 3}
+    character2Sprite: {fileID: 21300000, guid: 5cb8bb91aa19ef34b86fd21dce478d4a, type: 3}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
+    position: {x: 40923.6, y: 492}
+    leftChar: 0
+  - id: 11848ed2-b53b-4ebd-b3d3-a7fd4adce711
+    characterName: Jack'O Candy
+    text: "Hehe ! Tout se d\xE9roule encore mieux que pr\xE9vu ! \nRegardez les s\u2019\xE9gosiller,
+      il n\u2019y en a pas l\u2019un pour rattraper l\u2019autre ! Si j\u2019avais
+      su, j\u2019aurais organis\xE9 quelque chose de similaire plus t\xF4t...\r\n"
+    choices:
+    - name: Next
+      nextDialogueID: adeb0dd7-0e89-4fab-9d6b-e63945c46f15
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 41393.035, y: 492}
+    leftChar: 0
+  - id: adeb0dd7-0e89-4fab-9d6b-e63945c46f15
+    characterName: Jack'O Candy
+    text: "Mh\u2026 ? Mais\u2026 Que font-ils\u2026 ? Il ne vont pas s\u2019attaquer
+      tout de m\xEAme... ?!\r"
+    choices:
+    - name: Next
+      nextDialogueID: 1027ba6a-10f2-4f70-ac83-f9088e21e992
+    characterSprite: {fileID: 0}
+    character2Sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    dialogueSprite: {fileID: 0}
+    position: {x: 41978.125, y: 492}
+    leftChar: 0
   firstNode:
     id: 9515acc9-1b56-41e1-9da5-b22f5e54c24b
     characterName: Character
@@ -244,3 +1165,4 @@ MonoBehaviour:
     backgroundSprite: {fileID: 21300000, guid: 6fea10c04d6eefe458d01684e54d59c1, type: 3}
     dialogueSprite: {fileID: 21300000, guid: a8cbc4b13bfccc142a7feb5bfa6267ec, type: 3}
     position: {x: 57, y: 150}
+    leftChar: 0

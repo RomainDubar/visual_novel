@@ -126,6 +126,10 @@ MonoBehaviour:
   counter: {fileID: 1256927063793422288, guid: bc8d331a0736ebe4985e5b660871a497, type: 3}
   RandomSpawner: {fileID: 1256927063793422289, guid: bc8d331a0736ebe4985e5b660871a497,
     type: 3}
+  CharaSorciere: {fileID: 3308539927460555976, guid: 6ceaec8dc23ba9e45b22e9c5928a186c,
+    type: 3}
+  Onomathope: {fileID: 2810920053017316451, guid: 70abf4d55ebab5d4b89247b483043c78,
+    type: 3}
 --- !u!111 &2925474497471002297
 Animation:
   m_ObjectHideFlags: 0

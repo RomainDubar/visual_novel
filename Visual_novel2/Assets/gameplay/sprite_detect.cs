@@ -9,7 +9,7 @@ public class sprite_detect : MonoBehaviour
     public GameObject thesprite;
     public Sprite StadeUn;
     public Sprite StadeDeux;
-    internal Sprite spriteSave;
+    internal static Sprite spriteSave;
 
 
     public float temps = 10;
@@ -36,6 +36,7 @@ public class sprite_detect : MonoBehaviour
                 temps -= Time.deltaTime;
                 thesprite.GetComponent<Image>().sprite = StadeUn;
                 random_spawner.CanStealCandy = false;
+                GameObject.Find("spawner").GetComponent<random_spawner>().Onomat.SetActive(false);
             }
 
             else if (temps < Savetemps / 2)
@@ -43,6 +44,8 @@ public class sprite_detect : MonoBehaviour
                 temps -= Time.deltaTime;
                 thesprite.GetComponent<Image>().sprite = spriteSave;
                 random_spawner.CanStealCandy = true;
+                
+
             }
 
             if (temps <= 0)

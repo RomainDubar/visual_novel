@@ -14,12 +14,15 @@ namespace DS.Engine.Data {
         public Sprite BackgroundSprite { get => backgroundSprite; set => backgroundSprite = value; }
         public Sprite DialogueSprite { get => dialogueSprite; set => dialogueSprite = value; }
         public Vector2 Position { get => position; set => position = value; }
+        public bool LeftChar { get => leftChar; set => leftChar = value; }
+        
 
         [SerializeField] private string id;
         [SerializeField] private string characterName, text;
         [SerializeField] private List<DSChoiceData> choices;
         [SerializeField] private Sprite characterSprite, character2Sprite, backgroundSprite, dialogueSprite;
         [SerializeField] private Vector2 position;
+        [SerializeField] private bool leftChar;
 
         public DSNodeData() {
             id = Guid.NewGuid().ToString();
@@ -31,7 +34,8 @@ namespace DS.Engine.Data {
             backgroundSprite = null;
             dialogueSprite = null;
             position = Vector3.zero;
-        }
+            leftChar = false;
+                    }
 
         public DSNodeData(DSNodeData data) {
             id = data.Id;
@@ -43,6 +47,8 @@ namespace DS.Engine.Data {
             backgroundSprite = data.BackgroundSprite;
             dialogueSprite = data.DialogueSprite;
             position = new Vector2(data.Position.x, data.Position.y);
+            leftChar = data.LeftChar;
+            
         }
 
 
