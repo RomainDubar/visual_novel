@@ -7,7 +7,7 @@ public class random_spawner : MonoBehaviour
 {
     public GameObject candy;
     public int numberCandy;
-    private int TheSpawnCandy;
+    internal int TheSpawnCandy;
     internal static int CandyInScene =0;
     internal static bool CanStealCandy;
     internal static bool miniGamePlay = false;

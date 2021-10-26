@@ -27,7 +27,7 @@ MonoBehaviour:
     leftChar: 0
   - id: 71a49c77-f49a-4ac8-ae0b-d403ec570712
     characterName: Schnaps
-    text: Zzzz<color=red>ZZZZ</color>zzzZZ
+    text: ZzzzZZZZzzzZZ
     choices:
     - name: Next
       nextDialogueID: fc6c7c83-49b4-4da2-81af-b2706877ed7c
@@ -112,7 +112,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 21300000, guid: 9ffe1d32f9be7d1409d6871c20ff97eb, type: 3}
     dialogueSprite: {fileID: 21300000, guid: 0ab2284ef67d6e0489723616ef31362b, type: 3}
     position: {x: 3529.8967, y: 150.00002}
-    leftChar: 1
+    leftChar: 0
   - id: e455349d-6d87-4d25-8168-0e825302a40a
     characterName: Schnaps
     text: "Warf ! C\u2019est immense ici ! Mate moi tous ces bonbecs !\r\n"
@@ -172,7 +172,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 4657, y: 150}
-    leftChar: 0
+    leftChar: 1
   - id: 1d0659f0-7f41-4c6e-8b6c-b7466ab20131
     characterName: Jack'O Candy
     text: "Hey ! Ca fait beaucoup de bonbons ! Vous comptez vraiment payer tout \xE7a
@@ -185,7 +185,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 0}
     position: {x: 5149.998, y: 150}
-    leftChar: 0
+    leftChar: 1
   - id: aedbade9-f6a3-45b6-8539-a262343dcdab
     characterName: Schnaps
     text: "Warf ! M\u2019avez fait peur !"
@@ -223,7 +223,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 6862.15, y: 149.99995}
-    leftChar: 0
+    leftChar: 1
   - id: 318b85d0-065e-4aa1-ae7b-62a89ee00da3
     characterName: Schnaps
     text: "D\xE9j\xE0 partie la carotte ? H\xE9, \xE7\u2019aura pas durer longtemps
@@ -263,7 +263,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 8544.793, y: 149.99994}
-    leftChar: 0
+    leftChar: 1
   - id: 793e0258-dd8f-4982-82aa-60e84b90a508
     characterName: Jack'O Candy
     text: "Mais\u2026 C\u2019est qu\u2019il est plut\xF4t intimidant\u2026..."
@@ -305,7 +305,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
     position: {x: 10142.259, y: 16.262918}
-    leftChar: 0
+    leftChar: 1
   - id: c5f927cd-b5e7-4624-a4c0-62958b73a038
     characterName: "Sorci\xE8re"
     text: "Ca, je ne te le fais pas dire !\r"
@@ -317,7 +317,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 10142, y: 261.00003}
-    leftChar: 0
+    leftChar: 1
   - id: 5a3b4343-691b-45ff-9172-d136dc271501
     characterName: "Sorci\xE8re"
     text: "Maintenant, tu vas rendre gentiment tous ces bonbons avant que je ne me
@@ -331,7 +331,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 10746.219, y: 172.50993}
-    leftChar: 0
+    leftChar: 1
   - id: 8dd36a56-ba3a-4923-ba05-2d8f8172e175
     characterName: Schnaps
     text: "Hey ! Elle se prend pour qui celle-l\xE0 ? T\u2019es bien gentille ma
@@ -358,7 +358,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 11905.577, y: 173}
-    leftChar: 0
+    leftChar: 1
   - id: 4c16a4ca-8e39-4486-93b4-6931528d08c9
     characterName: "Sorci\xE8re"
     text: "Bla bla bl, blabla. Bla bla bla blablabla bla ! Bla bla\u2026"
@@ -370,7 +370,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 0}
     position: {x: 12467.423, y: 172.99998}
-    leftChar: 0
+    leftChar: 1
   - id: e548a8a3-629e-43b9-a654-672784a3efbe
     characterName: Schnaps
     text: "Bwaaa, lourd ! Tu penses que je pourrais me barrer subrepticement pendant
@@ -480,7 +480,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 16716.13, y: 172.99998}
-    leftChar: 0
+    leftChar: 1
   - id: 9c1edce3-843a-4f76-824a-a2e096d009d8
     characterName: "Sorci\xE8re"
     text: "Et donc\u2026 Au lieu d\u2019en parler \xE0 un adulte responsable, tu
@@ -494,7 +494,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 0}
     position: {x: 17215, y: 173}
-    leftChar: 0
+    leftChar: 1
   - id: 481c49b1-ada4-4af0-b066-aa6c644e84df
     characterName: Schnaps
     text: "Choice A: Baaaah, ouais, en fait.\r\nChoice B: Je reconnais la stupidit\xE9
@@ -523,7 +523,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 18363.988, y: 15.557625}
-    leftChar: 0
+    leftChar: 1
   - id: 66ac1b0f-e388-44e9-b5a2-4e477ce899f3
     characterName: "Sorci\xE8re"
     text: "M\xEAme si je me dois d\u2019admettre que cette r\xE9ponse est forte plaisante
@@ -537,7 +537,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 18364, y: 270.80463}
-    leftChar: 0
+    leftChar: 1
   - id: e8dda623-08ca-40da-8da0-bff88fa25a82
     characterName: "Sorci\xE8re"
     text: "Donne moi donc une bonne raison de ne pas t\u2019occire sur place\r\n"
@@ -549,7 +549,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 0}
     position: {x: 18978.574, y: 127}
-    leftChar: 0
+    leftChar: 1
   - id: 58847bfa-af7e-47c8-a0cd-1502b81047e1
     characterName: Schnaps
     text: "Pour qui tu te prends vieille peau ! Plus personne prend les sorci\xE8res
@@ -616,7 +616,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 21629.39, y: 127}
-    leftChar: 0
+    leftChar: 1
   - id: 7159297b-a00a-4079-842f-f603f192941e
     characterName: Schnaps
     text: "Argh, c\u2019est qu\u2019elle cache bel et bien un cerveau sous ce grand
@@ -657,7 +657,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 23305.21, y: 127.00001}
-    leftChar: 0
+    leftChar: 1
   - id: 5a257296-8b87-477d-9f83-ff9b2c8f6beb
     characterName: Schnaps
     text: "Choice A: Ouais ! Ferme- l\xE0 un peu, l\u2019potiron !\r\nChoice B: Vous
@@ -687,8 +687,8 @@ MonoBehaviour:
     character2Sprite: {fileID: 21300000, guid: abed68dab46533f4ebff1742b8c0c538, type: 3}
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
-    position: {x: 24432.215, y: -70.35724}
-    leftChar: 0
+    position: {x: 24432, y: -114}
+    leftChar: 1
   - id: 0cdfa08e-a7e8-4b9f-b566-efaab66f4e09
     characterName: "Sorci\xE8re"
     text: "Que ce soit pour une nuit ou une journ\xE9e, le constat est le m\xEAme
@@ -702,7 +702,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 24432.215, y: 151.64276}
-    leftChar: 0
+    leftChar: 1
   - id: b9c91adb-855e-4047-8b3a-1ffa552421c3
     characterName: "Sorci\xE8re"
     text: "Tu parais bien trop gentil d\u2019un coup\u2026 "
@@ -713,8 +713,8 @@ MonoBehaviour:
     character2Sprite: {fileID: 21300000, guid: b8972c0e198c30a499b742dfe4b1e5b6, type: 3}
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
-    position: {x: 24432, y: 404}
-    leftChar: 0
+    position: {x: 24432, y: 446}
+    leftChar: 1
   - id: bdfcf249-5e74-4ccf-946d-60e8edf9a820
     characterName: Schnaps
     text: "Bah, c\u2019est que j\u2019ai eu peur quand je vous ai vu arriver, et
@@ -767,7 +767,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 26540.36, y: 152}
-    leftChar: 0
+    leftChar: 1
   - id: 47ab56fa-8ed0-4f31-96a8-7a3618e438cb
     characterName: Jack'O Candy
     text: Gloups !
@@ -793,7 +793,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 27402.84, y: 152}
-    leftChar: 0
+    leftChar: 1
   - id: 4bafdae6-9076-4d11-8bd4-80ee9f187863
     characterName: "Sorci\xE8re"
     text: "Et si tu me fais marcher\u2026 Comptes sur moi pour te retrouver et te
@@ -806,7 +806,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 0}
     position: {x: 27933.549, y: 152}
-    leftChar: 0
+    leftChar: 1
   - id: e266bcfd-c64b-4fb3-9283-85aa4f94f4bd
     characterName: 
     text: 
@@ -871,7 +871,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 30419.873, y: 492}
-    leftChar: 0
+    leftChar: 1
   - id: d43d89f7-ad0d-4f8b-9316-f8e771213bef
     characterName: Schnaps
     text: "Je suis curieux, c\u2019est normal pour un \u201Cgosse\u201D, nan ? C\u2019est
@@ -896,7 +896,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 31470.918, y: 492.00003}
-    leftChar: 0
+    leftChar: 1
   - id: e47a7c2a-3832-4953-b5d9-75dd0b7b790b
     characterName: "Sorci\xE8re"
     text: "Silence, Jack\u2019O Candy ! Il suffit maintenant, hors de ma vue, limace
@@ -909,7 +909,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
     position: {x: 31945.998, y: 492}
-    leftChar: 0
+    leftChar: 1
   - id: 26c65a65-1dff-477e-a6ed-63934f0e8049
     characterName: "Sorci\xE8re"
     text: "Bla bla ! Blablabla bla blabla !! Bla blabla bla\u2026 !\r"
@@ -921,7 +921,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 0}
     position: {x: 32475.186, y: 492}
-    leftChar: 0
+    leftChar: 1
   - id: 94673cd5-fa37-4d3f-a207-eb69764a66ab
     characterName: Schnaps
     text: "Mince, ma langue a fourch\xE9e ! \nC\u2019est que c'est dangereux, une
@@ -988,7 +988,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 35052.605, y: 492}
-    leftChar: 0
+    leftChar: 1
   - id: 4308759f-81cd-4b44-ad67-58890d0831ff
     characterName: "Sorci\xE8re"
     text: "La ferme Jack\u2019O !"
@@ -1000,7 +1000,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
     position: {x: 35541.348, y: 492}
-    leftChar: 0
+    leftChar: 1
   - id: c303a8df-e662-4c38-af02-d906686fb62f
     characterName: Jack'O Candy
     text: "Je peux le comprendre apr\xE8s tout\u2026 il est vrai que ces jolis sucreries
@@ -1013,7 +1013,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: d43639f3c6ca9ab44ba3bffedf1dd159, type: 3}
     position: {x: 36097.516, y: 492}
-    leftChar: 0
+    leftChar: 1
   - id: fcab77eb-9e4c-48a0-baaa-12cb93c1d3fb
     characterName: Schnaps
     text: Gloups !
@@ -1052,7 +1052,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
     position: {x: 37885.523, y: 491.99997}
-    leftChar: 0
+    leftChar: 1
   - id: 76be14b7-ed79-48df-ae11-0a508d2aaeda
     characterName: Schnaps
     text: "J\u2019voudrais bien voir \xE7a grand-m\xE8re !\r"
@@ -1076,7 +1076,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
     position: {x: 38965.625, y: 492}
-    leftChar: 0
+    leftChar: 1
   - id: 0d370bda-1e23-4b29-aa6e-1b1595d8d083
     characterName: Schnaps
     text: Bla bla, blabla Bla Bla, Bla Bla bla !!...
@@ -1100,7 +1100,7 @@ MonoBehaviour:
     backgroundSprite: {fileID: 0}
     dialogueSprite: {fileID: 21300000, guid: b9c96f0892c038948bafb79a2b93ca82, type: 3}
     position: {x: 39964.645, y: 492}
-    leftChar: 0
+    leftChar: 1
   - id: 5b8907f5-7728-4fbb-a568-28334200915d
     characterName: Schnaps
     text: Bla bla, blabla Bla Bla, Bla Bla bla,Bla Bla bla,bla bla bla,Bla Bla bla

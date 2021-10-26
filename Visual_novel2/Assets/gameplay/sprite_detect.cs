@@ -12,9 +12,9 @@ public class sprite_detect : MonoBehaviour
     internal static Sprite spriteSave;
 
 
-    public float temps = 10;
+    public static float temps = 10;
     public int tempsint;
-    private float Savetemps;
+    internal static float Savetemps;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +37,8 @@ public class sprite_detect : MonoBehaviour
                 thesprite.GetComponent<Image>().sprite = StadeUn;
                 random_spawner.CanStealCandy = false;
                 GameObject.Find("spawner").GetComponent<random_spawner>().Onomat.SetActive(false);
+                //GameObject.Find("BadBonbon").GetComponent<AudioSource>().Play(0); ;
+
             }
 
             else if (temps < Savetemps / 2)
@@ -44,7 +46,9 @@ public class sprite_detect : MonoBehaviour
                 temps -= Time.deltaTime;
                 thesprite.GetComponent<Image>().sprite = spriteSave;
                 random_spawner.CanStealCandy = true;
-                
+                //GameObject.Find("GoodBonbon").GetComponent<AudioSource>().Play(0); 
+
+
 
             }
 
